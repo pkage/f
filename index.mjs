@@ -1,7 +1,12 @@
-import * as THREE from 'https://threejs.org/build/three.module.js';
-import { OrbitControls } from 'https://threejs.org/examples/jsm/controls/OrbitControls.js';
-import { AmmoPhysics } from 'https://threejs.org/examples/jsm/physics/AmmoPhysics.js';
-import Stats from 'https://threejs.org/examples/jsm/libs/stats.module.js';
+// import * as THREE from 'https://threejs.org/build/three.module.js';
+// import { OrbitControls } from 'https://threejs.org/examples/jsm/controls/OrbitControls.js';
+// import { AmmoPhysics } from 'https://threejs.org/examples/jsm/physics/AmmoPhysics.js';
+// import Stats from 'https://threejs.org/examples/jsm/libs/stats.module.js';
+
+import * as THREE from './mjs/three.module.js'
+import { OrbitControls } from './mjs/OrbitControls.mjs'
+import { AmmoPhysics } from './mjs/AmmoPhysics.mjs'
+import Stats from './mjs/stats.module.js';
 
 var camera, scene, renderer, stats;
 var physics, position;
